@@ -1,0 +1,14 @@
+[package]
+name = "prrr_gql"
+version = "0.1.0"
+authors = ["crashspringfield <ccrsh@riseup.net>"]
+edition = "2018"
+
+[dependencies]
+diesel = { version = "1.0.0", features = ["postgres"] }
+dotenv = "0.9.0"
+juniper = { git = "https://github.com/graphql-rust/juniper.git" }
+rocket = "0.4.0"
+serde = { version = "1.0.2" }
+serde_json = { version = "1.0.2" }
+serde_derive = { version = "1.0.2" }
